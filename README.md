@@ -39,6 +39,17 @@ Then open your web browser and go to `http://localhost:8501`.
 
 This chatbot uses a fine-tuned GPT-2 model. The model is loaded from the Hugging Face model hub: "MrSimple07/my-gpt2-model-for-clone".
 
+# Repository Structure
+
+Here is an overview of the files included in this repository:
+
+data/: This directory contains the preprocessed Telegram messages used for fine-tuning the GPT-2 model.
+telegramAPI/: This directory includes scripts and utilities for interacting with the Telegram API and extracting message data. And also the fine- tuning process which was done on Kaggle platform.
+LICENSE: The license file for this project.
+README.md: The readme file providing an overview and instructions for the project.
+appStreamlit.py: The main Streamlit app file that creates the web interface and handles user interactions.
+tg_getting_data.py: A script for collecting and preprocessing Telegram messages using the Telegram API.
+
 ## Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request.
